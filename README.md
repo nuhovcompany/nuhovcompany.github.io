@@ -1,1 +1,0 @@
-Small project for training
