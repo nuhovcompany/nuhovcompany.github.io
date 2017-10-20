@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("https://www.notjust4nerds.de/Kodi/Wallpaper/2017/Wissen/swiss-alps-3840x2160-night-sky-milky-way-hd-4035.jpg");
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 28%;
+}
+.content h1 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 600%;
+    font-weight: 100;
+    color: #E1EFE9;
+    line-height: 70%;
+}
+.button{
+    font-family: 'Monteserrat',sans-serif;
+    font-size:135%;
+    font-weight: 400;
+    color: #adc6ed;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #adc6ed;
+    padding: 10px 20px;
+    border-radius: 9px;
+}
+.button:hover{
+    color: #CDBFD6;
+    border: solid #CDBFD6 2px;
+}
+p{
+    font-size: 150%;
+    line-height: 120%;
+    font-family: sans-serif;
+}
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+    .content {
+        padding-bottom: 30%;
+    }
+    .content h1{
+        font-size: 450%;
+    }
+    .button{
+        font-size: 130%;
+        padding: 9px 17px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .content {
+        padding-bottom: 40%;
+    }
+    .content h1{
+        font-size: 300%;
+    }
+    .button{
+        font-size: 110%;
+        padding: 9px 17px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .content {
+        padding-bottom: 50%;
+    }
+    .content h1{
+        font-size: 300%;
+    }
+    .button{
+        font-size: 110%;
+        padding: 6px 17px;
+    }
+    p{
+        font-size: 100%;
+        line-height: 100%;
+    }
+}
